@@ -38,7 +38,6 @@ ENV/
 .ipynb_checkpoints/
 
 # Output files
-particle_sim3d/output/
 *.webp
 *.png
 *.mp4

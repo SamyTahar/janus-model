@@ -1,0 +1,16 @@
+Janus 3D Simulation Summary
+Generated: 2025-12-26T15:51:17.713602
+
+Particle Counts:
+  Total: 20000
+  M+ (positive): 10000
+  M- (negative): 10000
+
+Center of Mass:
+  X: 39.4569
+  Y: 16.9126
+  Z: 2.7925
+
+Velocity Statistics:
+  Average speed: 134.6300
+  Max speed: 380.8304
