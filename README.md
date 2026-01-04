@@ -25,8 +25,8 @@ A 3D N-body particle simulation implementing the Janus cosmological model with p
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/janus_AI_AntiGravity.git
-cd janus_AI_AntiGravity
+git clone https://github.com/SamyTahar/janus-model.git
+cd janus-model
 
 # Create conda environment
 conda create -n janus python=3.11
@@ -35,8 +35,6 @@ conda activate janus
 # Install Python dependencies
 pip install -r requirements.txt
 
-# Install frontend dependencies
-cd frontend && npm install && cd ..
 ```
 
 ### Running the Simulation
@@ -46,17 +44,6 @@ cd frontend && npm install && cd ..
 python -m particle_sim3d.main
 ```
 
-#### Web Interface (React + Three.js)
-```bash
-# Terminal 1: Start API server
-python -m particle_sim3d.run_api
-
-# Terminal 2: Start frontend dev server
-cd frontend && npm run dev
-```
-
-Then open http://localhost:3000
-
 ## Project Structure
 
 ```
@@ -64,10 +51,7 @@ Then open http://localhost:3000
 │   ├── core/           # Simulation core (sim.py, init_conditions.py)
 │   ├── physics/        # Force calculations (forces.py, octree.py, metal_backend.py)
 │   ├── rendering/      # Pyglet renderer
-│   ├── ui/             # Native UI (app.py, menu.py)
-│   ├── api/            # FastAPI backend for web interface
 │   └── utils/          # Export, recording, benchmarks
-├── frontend/           # React + Three.js web frontend
 └── docs/               # Documentation
 ```
 
