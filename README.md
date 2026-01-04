@@ -2,8 +2,6 @@
 
 A 3D N-body particle simulation implementing the Janus cosmological model with positive and negative mass particles.
 
-![Janus Simulation](docs/preview.png)
-
 ## Features
 
 - **Janus Physics**: Simulation of positive (M+) and negative (M-) mass particles with anti-gravity interactions
@@ -50,6 +48,7 @@ python -m particle_sim3d.main
 ├── particle_sim3d/
 │   ├── core/           # Simulation core (sim.py, init_conditions.py)
 │   ├── physics/        # Force calculations (forces.py, octree.py, metal_backend.py)
+│   ├── output/         # Videos and image output folder
 │   ├── rendering/      # Pyglet renderer
 │   └── utils/          # Export, recording, benchmarks
 └── docs/               # Documentation
